@@ -1,4 +1,0 @@
-#! /bin/bash
-
-echo 269 > /sys/call/gpio/export
-echo out > /sys/call/gpio/gpio269/direction
