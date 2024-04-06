@@ -1,0 +1,58 @@
+Data_IN=273
+Chip_Select=271
+Clock=272
+
+shift_out() {
+        send_to_address=$1
+        send_this_data=$2
+        # Shift out data
+        echo "0" > /sys/class/gpio/gpio$Chip_Select/value
+
+# Write the byte starting from the most significant bit
+        for (( i=7; i>=0; i-- )); do
+                bit=$(( (send_to_address >> i) & 1 ))
+                echo $bit > /sys/class/gpio/gpio$Data_IN/value
+                echo "1" > /sys/class/gpio/gpio$Clock/value
+                echo "0" > /sys/class/gpio/gpio$Clock/value
+        done
+
+        for (( i=7; i>=0; i-- )); do
+                bit=$(( (send_this_data >> i) & 1 ))
+                echo $bit > /sys/class/gpio/gpio$Data_IN/value
+                echo "1" > /sys/class/gpio/gpio$Clock/value
+                echo "0" > /sys/class/gpio/gpio$Clock/value
+        done
+        echo "1" > /sys/class/gpio/gpio$Chip_Select/value
+        }
+
+setup() {
+        shift_out 0x0f 0x00  # display test register -> 0 = test mode off
+        shift_out 0x0c 0x01  # shutdown register -> 1 = normal operation, 0 = sh
+utdown mode
+        shift_out 0x0b 0x07  # scan limit register (how many digits to use) -> d
+isplay digits 0 through 7
+        shift_out 0x0a 0x0f  # intensity register -> max brightness
+        shift_out 0x09 0xff  # decode mode register -> CodeB decode all digits (
+each digits is hex value)
+}
+
+print_digits() {
+        shift_out 0x08 0x00
+        shift_out 0x07 0x00
+        shift_out 0x06 0x01
+        shift_out 0x05 0x01
+        shift_out 0x04 0x02
+        shift_out 0x03 0x02
+        shift_out 0x02 0x04
+        shift_out 0x01 0x05
+        sleep 1
+}
+
+# Main loop
+setup
+while true; do
+        print_digits
+done
+
+                                                              
+

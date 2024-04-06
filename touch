@@ -1,0 +1,13 @@
+#! /bin/bash
+
+while true
+do
+        in=$(cat "/sys/class/gpio/gpio269/value")
+        if [ "$in" -eq 1 ];
+        then
+                echo "TOUCHED!"
+        else
+                echo "NOT TOUCHED!"
+        fi
+done
+

@@ -1,0 +1,3 @@
+A szalagkábel a 2. GPIO tömbbe van szúrva.
+(Olimage-guide.pdf és a A20-OLinuXino-Lime_Rev_I1-1.pdf alapján)
+8*32+13 ebből? ((9-1)*32+13)
