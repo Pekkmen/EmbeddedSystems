@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 Data_IN=273
 Chip_Select=271
@@ -40,17 +40,39 @@ each digits is hex value)
 }
 
 print_digits() {
-        for ((hex_number = 0x00; hex_number <= 0x09; hex_number++)); do
-                shift_out 0x01 $hex_number
-                shift_out 0x02 $hex_number
-                shift_out 0x03 $hex_number
-                shift_out 0x04 $hex_number
-                shift_out 0x05 $hex_number
-                shift_out 0x06 $hex_number
-                shift_out 0x07 $hex_number
-                shift_out 0x08 $hex_number
-                sleep 1
-        done
+        SECONDS=$(date +%S)
+
+        SECONDS_FIRST_DIGIT=$(($SECONDS % 10))
+        SEC_FIRST_DIGIT_HEX=$(printf "%X" $SECONDS_FIRST_DIGIT)
+
+        SECONDS_SECOND_DIGIT=$(($SECONDS / 10))
+        SEC_SECOND_DIGIT_HEX=$(printf "%X" $SECONDS_SECOND_DIGIT)
+
+        MINUTES=$(date +%M)
+
+        MINUTES_FIRST_DIGIT=$(($MINUTES % 10))
+        MIN_FIRST_DIGIT_HEX=$(printf "%X" $MINUTES_FIRST_DIGIT)
+
+        MINUTES_SECOND_DIGIT=$(($MINUTES / 10))
+        MIN_SECOND_DIGIT_HEX=$(printf "%X" $MINUTES_SECOND_DIGIT)
+
+        HOURS=$(date +%H)
+
+        HOURS_FIRST_DIGIT=$(($HOURS % 10))
+        HR_FIRST_DIGIT_HEX=$(printf "%X" $HOURS_FIRST_DIGIT)
+
+        HOURS_SECOND_DIGIT=$(($HOURS / 10))
+        HR_SECOND_DIGIT_HEX=$(printf "%X" $HOURS_SECOND_DIGIT)
+
+
+        shift_out 0x01 $SEC_FIRST_DIGIT_HEX
+        shift_out 0x02 $SEC_SECOND_DIGIT_HEX
+        shift_out 0x03 0x2a
+        shift_out 0x04 $MIN_FIRST_DIGIT_HEX
+        shift_out 0x05 $MIN_SECOND_DIGIT_HEX
+        shift_out 0x06 0x2a
+        shift_out 0x07 $HR_FIRST_DIGIT_HEX
+        shift_out 0x08 $HR_SECOND_DIGIT_HEX
 }
 
 # Main loop

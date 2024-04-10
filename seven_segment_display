@@ -1,3 +1,5 @@
+#! /bin/bash
+
 Data_IN=273
 Chip_Select=271
 Clock=272
