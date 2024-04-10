@@ -40,7 +40,7 @@ each digits is hex value)
 }
 
 print_digits() {
-        SECONDS=$(date +%S)
+        SECONDS=$((10#$(date +%S)))
 
         SECONDS_FIRST_DIGIT=$(($SECONDS % 10))
         SEC_FIRST_DIGIT_HEX=$(printf "%X" $SECONDS_FIRST_DIGIT)
