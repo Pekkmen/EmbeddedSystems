@@ -1,0 +1,2162 @@
+root@a10-olinuxino:~# dtc -Ifs /proc/device-tree | grep spi@7e204000            
+<stdout>: Warning (unit_address_vs_reg): /memory: node has a reg or ranges prope
+<stdout>: Warning (clocks_property): /soc/spdif@1c21000:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/spdif@1c21000:clocks: cell 2 is not ae
+<stdout>: Warning (clocks_property): /soc/spi@1c06000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c06000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c28000:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/watchdog@1c20c90:clocks: cell 0 is noe
+<stdout>: Warning (clocks_property): /soc/pwm@1c20e00:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/ps2@1c2a000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/ir@1c21c00:clocks: cell 0 is not a phe
+<stdout>: Warning (clocks_property): /soc/ir@1c21c00:clocks: cell 2 is not a phe
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0c000:clocks: cell 0e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0c000:clocks: cell 2e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0c000:clocks: cell 4e
+<stdout>: Warning (clocks_property): /soc/sata@1c18000:clocks: cell 0 is not a e
+<stdout>: Warning (clocks_property): /soc/sata@1c18000:clocks: cell 2 is not a e
+<stdout>: Warning (clocks_property): /soc/mmc@1c0f000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c0f000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c1f000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c1f000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/nand-controller@1c03000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/nand-controller@1c03000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/mmc@1c11000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c11000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29800:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/ethernet@1c0b000:clocks: cell 0 is noe
+<stdout>: Warning (clocks_property): /soc/usb@1c14400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c14400:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c05000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c05000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/gpu@1c40000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/gpu@1c40000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e20000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e20000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e20000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-backend@1e40000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e40000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e40000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/i2c@1c2b400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29400:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/phy@1c13400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/i2s@1c22400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/i2s@1c22400:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c1c400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c1c400:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c14000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c10000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c10000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29c00:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/codec@1c22c00:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/codec@1c22c00:clocks: cell 2 is not ae
+<stdout>: Warning (clocks_property): /soc/serial@1c28800:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/crypto-engine@1c15000:clocks: cell 0 e
+<stdout>: Warning (clocks_property): /soc/crypto-engine@1c15000:clocks: cell 2 e
+<stdout>: Warning (clocks_property): /soc/i2c@1c2b000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29000:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/timer@1c20c00:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/can@1c2bc00:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/dma-controller@1c02000:clocks: cell 0e
+<stdout>: Warning (clocks_property): /soc/usb@1c1c000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/clock@1c20000:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/clock@1c20000:clocks: cell 1 is not ae
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0d000:clocks: cell 0e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0d000:clocks: cell 2e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0d000:clocks: cell 4e
+<stdout>: Warning (clocks_property): /soc/ir@1c21800:clocks: cell 0 is not a phe
+<stdout>: Warning (clocks_property): /soc/ir@1c21800:clocks: cell 2 is not a phe
+<stdout>: Warning (clocks_property): /soc/csi@1c1d000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/csi@1c1d000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c28400:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/pinctrl@1c20800:clocks: cell 0 is note
+<stdout>: Warning (clocks_property): /soc/pinctrl@1c20800:clocks: cell 2 is note
+<stdout>: Warning (clocks_property): /soc/pinctrl@1c20800:clocks: cell 3 is note
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e00000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e00000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e00000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/usb@1c13000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/video-codec@1c0e000:clocks: cell 0 ise
+<stdout>: Warning (clocks_property): /soc/video-codec@1c0e000:clocks: cell 2 ise
+<stdout>: Warning (clocks_property): /soc/video-codec@1c0e000:clocks: cell 4 ise
+<stdout>: Warning (clocks_property): /soc/ps2@1c2a400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c12000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c12000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/i2c@1c2ac00:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 0 is not a e
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 2 is not a e
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 4 is not a e
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 6 is not a e
+<stdout>: Warning (clocks_property): /soc/serial@1c28c00:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e60000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e60000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e60000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/spi@1c17000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c17000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /cpus/cpu@0:clocks: cell 0 is not a phandle
+<stdout>: Warning (cooling_device_property): /thermal-zones/cpu-thermal/coolinge
+<stdout>: Warning (dmas_property): /soc/spdif@1c21000:dmas: cell 0 is not a phae
+<stdout>: Warning (dmas_property): /soc/spdif@1c21000:dmas: cell 3 is not a phae
+<stdout>: Warning (dmas_property): /soc/spi@1c06000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c06000:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/lcd-controller@1c0c000:dmas: cell 0 is e
+<stdout>: Warning (dmas_property): /soc/spi@1c1f000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c1f000:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/nand-controller@1c03000:dmas: cell 0 ise
+<stdout>: Warning (dmas_property): /soc/spi@1c05000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c05000:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/i2s@1c22400:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/i2s@1c22400:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/codec@1c22c00:dmas: cell 0 is not a phae
+<stdout>: Warning (dmas_property): /soc/codec@1c22c00:dmas: cell 3 is not a phae
+<stdout>: Warning (dmas_property): /soc/lcd-controller@1c0d000:dmas: cell 0 is e
+<stdout>: Warning (dmas_property): /soc/hdmi@1c16000:dmas: cell 0 is not a phane
+<stdout>: Warning (dmas_property): /soc/hdmi@1c16000:dmas: cell 3 is not a phane
+<stdout>: Warning (dmas_property): /soc/hdmi@1c16000:dmas: cell 6 is not a phane
+<stdout>: Warning (dmas_property): /soc/spi@1c17000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c17000:dmas: cell 3 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c14400:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c1c400:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c14000:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c1c000:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c13000:phys: cell 0 is not a phande
+<stdout>: Warning (resets_property): /soc/lcd-controller@1c0c000:resets: cell 0e
+<stdout>: Warning (resets_property): /soc/gpu@1c40000:resets: cell 0 is not a pe
+<stdout>: Warning (resets_property): /soc/display-frontend@1e20000:resets: celle
+<stdout>: Warning (resets_property): /soc/display-backend@1e40000:resets: cell e
+<stdout>: Warning (resets_property): /soc/phy@1c13400:resets: cell 0 is not a pe
+<stdout>: Warning (resets_property): /soc/phy@1c13400:resets: cell 2 is not a pe
+<stdout>: Warning (resets_property): /soc/phy@1c13400:resets: cell 4 is not a pe
+<stdout>: Warning (resets_property): /soc/lcd-controller@1c0d000:resets: cell 0e
+<stdout>: Warning (resets_property): /soc/csi@1c1d000:resets: cell 0 is not a pe
+<stdout>: Warning (resets_property): /soc/display-frontend@1e00000:resets: celle
+<stdout>: Warning (resets_property): /soc/video-codec@1c0e000:resets: cell 0 ise
+<stdout>: Warning (resets_property): /soc/display-backend@1e60000:resets: cell e
+<stdout>: Warning (thermal_sensors_property): /thermal-zones/cpu-thermal:thermae
+<stdout>: Warning (gpios_property): /usb2-vbus:gpio: cell 0 is not a phandle ree
+<stdout>: Warning (gpios_property): /usb1-vbus:gpio: cell 0 is not a phandle ree
+<stdout>: Warning (gpios_property): /soc/mmc@1c0f000:cd-gpios: cell 0 is not a e
+<stdout>: Warning (gpios_property): /soc/phy@1c13400:usb0_vbus_det-gpios: cell e
+<stdout>: Warning (gpios_property): /soc/phy@1c13400:usb0_id_det-gpios: cell 0 e
+<stdout>: Warning (gpios_property): /leds/green:gpios: cell 0 is not a phandle e
+<stdout>: Warning (gpios_property): /ahci-5v:gpio: cell 0 is not a phandle refee
+<stdout>: Warning (gpios_property): /usb0-vbus:gpio: cell 0 is not a phandle ree
+<stdout>: Warning (alias_paths): /aliases:serial7: aliases property is not a va)
+<stdout>: Warning (alias_paths): /aliases:serial5: aliases property is not a va)
+<stdout>: Warning (alias_paths): /aliases:serial3: aliases property is not a va)
+<stdout>: Warning (alias_paths): /aliases:serial6: aliases property is not a va)
+<stdout>: Warning (alias_paths): /aliases:serial4: aliases property is not a va)
+root@a10-olinuxino:~# dtc -Ifs /proc/device-tree | grep spi@01c05000            
+<stdout>: Warning (unit_address_vs_reg): /memory: node has a reg or ranges prope
+<stdout>: Warning (clocks_property): /soc/spdif@1c21000:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/spdif@1c21000:clocks: cell 2 is not ae
+<stdout>: Warning (clocks_property): /soc/spi@1c06000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c06000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c28000:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/watchdog@1c20c90:clocks: cell 0 is noe
+<stdout>: Warning (clocks_property): /soc/pwm@1c20e00:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/ps2@1c2a000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/ir@1c21c00:clocks: cell 0 is not a phe
+<stdout>: Warning (clocks_property): /soc/ir@1c21c00:clocks: cell 2 is not a phe
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0c000:clocks: cell 0e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0c000:clocks: cell 2e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0c000:clocks: cell 4e
+<stdout>: Warning (clocks_property): /soc/sata@1c18000:clocks: cell 0 is not a e
+<stdout>: Warning (clocks_property): /soc/sata@1c18000:clocks: cell 2 is not a e
+<stdout>: Warning (clocks_property): /soc/mmc@1c0f000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c0f000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c1f000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c1f000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/nand-controller@1c03000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/nand-controller@1c03000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/mmc@1c11000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c11000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29800:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/ethernet@1c0b000:clocks: cell 0 is noe
+<stdout>: Warning (clocks_property): /soc/usb@1c14400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c14400:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c05000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c05000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/gpu@1c40000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/gpu@1c40000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e20000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e20000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e20000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-backend@1e40000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e40000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e40000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/i2c@1c2b400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29400:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/phy@1c13400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/i2s@1c22400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/i2s@1c22400:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c1c400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c1c400:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c14000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c10000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c10000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29c00:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/codec@1c22c00:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/codec@1c22c00:clocks: cell 2 is not ae
+<stdout>: Warning (clocks_property): /soc/serial@1c28800:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/crypto-engine@1c15000:clocks: cell 0 e
+<stdout>: Warning (clocks_property): /soc/crypto-engine@1c15000:clocks: cell 2 e
+<stdout>: Warning (clocks_property): /soc/i2c@1c2b000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29000:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/timer@1c20c00:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/can@1c2bc00:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/dma-controller@1c02000:clocks: cell 0e
+<stdout>: Warning (clocks_property): /soc/usb@1c1c000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/clock@1c20000:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/clock@1c20000:clocks: cell 1 is not ae
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0d000:clocks: cell 0e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0d000:clocks: cell 2e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0d000:clocks: cell 4e
+<stdout>: Warning (clocks_property): /soc/ir@1c21800:clocks: cell 0 is not a phe
+<stdout>: Warning (clocks_property): /soc/ir@1c21800:clocks: cell 2 is not a phe
+<stdout>: Warning (clocks_property): /soc/csi@1c1d000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/csi@1c1d000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c28400:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/pinctrl@1c20800:clocks: cell 0 is note
+<stdout>: Warning (clocks_property): /soc/pinctrl@1c20800:clocks: cell 2 is note
+<stdout>: Warning (clocks_property): /soc/pinctrl@1c20800:clocks: cell 3 is note
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e00000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e00000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e00000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/usb@1c13000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/video-codec@1c0e000:clocks: cell 0 ise
+<stdout>: Warning (clocks_property): /soc/video-codec@1c0e000:clocks: cell 2 ise
+<stdout>: Warning (clocks_property): /soc/video-codec@1c0e000:clocks: cell 4 ise
+<stdout>: Warning (clocks_property): /soc/ps2@1c2a400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c12000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c12000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/i2c@1c2ac00:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 0 is not a e
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 2 is not a e
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 4 is not a e
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 6 is not a e
+<stdout>: Warning (clocks_property): /soc/serial@1c28c00:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e60000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e60000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e60000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/spi@1c17000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c17000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /cpus/cpu@0:clocks: cell 0 is not a phandle
+<stdout>: Warning (cooling_device_property): /thermal-zones/cpu-thermal/coolinge
+<stdout>: Warning (dmas_property): /soc/spdif@1c21000:dmas: cell 0 is not a phae
+<stdout>: Warning (dmas_property): /soc/spdif@1c21000:dmas: cell 3 is not a phae
+<stdout>: Warning (dmas_property): /soc/spi@1c06000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c06000:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/lcd-controller@1c0c000:dmas: cell 0 is e
+<stdout>: Warning (dmas_property): /soc/spi@1c1f000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c1f000:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/nand-controller@1c03000:dmas: cell 0 ise
+<stdout>: Warning (dmas_property): /soc/spi@1c05000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c05000:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/i2s@1c22400:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/i2s@1c22400:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/codec@1c22c00:dmas: cell 0 is not a phae
+<stdout>: Warning (dmas_property): /soc/codec@1c22c00:dmas: cell 3 is not a phae
+<stdout>: Warning (dmas_property): /soc/lcd-controller@1c0d000:dmas: cell 0 is e
+<stdout>: Warning (dmas_property): /soc/hdmi@1c16000:dmas: cell 0 is not a phane
+<stdout>: Warning (dmas_property): /soc/hdmi@1c16000:dmas: cell 3 is not a phane
+<stdout>: Warning (dmas_property): /soc/hdmi@1c16000:dmas: cell 6 is not a phane
+<stdout>: Warning (dmas_property): /soc/spi@1c17000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c17000:dmas: cell 3 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c14400:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c1c400:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c14000:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c1c000:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c13000:phys: cell 0 is not a phande
+<stdout>: Warning (resets_property): /soc/lcd-controller@1c0c000:resets: cell 0e
+<stdout>: Warning (resets_property): /soc/gpu@1c40000:resets: cell 0 is not a pe
+<stdout>: Warning (resets_property): /soc/display-frontend@1e20000:resets: celle
+<stdout>: Warning (resets_property): /soc/display-backend@1e40000:resets: cell e
+root@a10-olinuxino:~# dtc -Ifs /proc/device-tree
+<stdout>: Warning (unit_address_vs_reg): /memory: node has a reg or ranges prope
+<stdout>: Warning (clocks_property): /soc/spdif@1c21000:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/spdif@1c21000:clocks: cell 2 is not ae
+<stdout>: Warning (clocks_property): /soc/spi@1c06000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c06000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c28000:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/watchdog@1c20c90:clocks: cell 0 is noe
+<stdout>: Warning (clocks_property): /soc/pwm@1c20e00:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/ps2@1c2a000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/ir@1c21c00:clocks: cell 0 is not a phe
+<stdout>: Warning (clocks_property): /soc/ir@1c21c00:clocks: cell 2 is not a phe
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0c000:clocks: cell 0e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0c000:clocks: cell 2e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0c000:clocks: cell 4e
+<stdout>: Warning (clocks_property): /soc/sata@1c18000:clocks: cell 0 is not a e
+<stdout>: Warning (clocks_property): /soc/sata@1c18000:clocks: cell 2 is not a e
+<stdout>: Warning (clocks_property): /soc/mmc@1c0f000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c0f000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c1f000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c1f000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/nand-controller@1c03000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/nand-controller@1c03000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/mmc@1c11000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c11000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29800:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/ethernet@1c0b000:clocks: cell 0 is noe
+<stdout>: Warning (clocks_property): /soc/usb@1c14400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c14400:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c05000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c05000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/gpu@1c40000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/gpu@1c40000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e20000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e20000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e20000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-backend@1e40000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e40000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e40000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/i2c@1c2b400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29400:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/phy@1c13400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/i2s@1c22400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/i2s@1c22400:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c1c400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c1c400:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/usb@1c14000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c10000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c10000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29c00:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/codec@1c22c00:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/codec@1c22c00:clocks: cell 2 is not ae
+<stdout>: Warning (clocks_property): /soc/serial@1c28800:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/crypto-engine@1c15000:clocks: cell 0 e
+<stdout>: Warning (clocks_property): /soc/crypto-engine@1c15000:clocks: cell 2 e
+<stdout>: Warning (clocks_property): /soc/i2c@1c2b000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c29000:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/timer@1c20c00:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/can@1c2bc00:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/dma-controller@1c02000:clocks: cell 0e
+<stdout>: Warning (clocks_property): /soc/usb@1c1c000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/clock@1c20000:clocks: cell 0 is not ae
+<stdout>: Warning (clocks_property): /soc/clock@1c20000:clocks: cell 1 is not ae
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0d000:clocks: cell 0e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0d000:clocks: cell 2e
+<stdout>: Warning (clocks_property): /soc/lcd-controller@1c0d000:clocks: cell 4e
+<stdout>: Warning (clocks_property): /soc/ir@1c21800:clocks: cell 0 is not a phe
+<stdout>: Warning (clocks_property): /soc/ir@1c21800:clocks: cell 2 is not a phe
+<stdout>: Warning (clocks_property): /soc/csi@1c1d000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/csi@1c1d000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/serial@1c28400:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/pinctrl@1c20800:clocks: cell 0 is note
+<stdout>: Warning (clocks_property): /soc/pinctrl@1c20800:clocks: cell 2 is note
+<stdout>: Warning (clocks_property): /soc/pinctrl@1c20800:clocks: cell 3 is note
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e00000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e00000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/display-frontend@1e00000:clocks: celle
+<stdout>: Warning (clocks_property): /soc/usb@1c13000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/video-codec@1c0e000:clocks: cell 0 ise
+<stdout>: Warning (clocks_property): /soc/video-codec@1c0e000:clocks: cell 2 ise
+<stdout>: Warning (clocks_property): /soc/video-codec@1c0e000:clocks: cell 4 ise
+<stdout>: Warning (clocks_property): /soc/ps2@1c2a400:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c12000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/mmc@1c12000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /soc/i2c@1c2ac00:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 0 is not a e
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 2 is not a e
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 4 is not a e
+<stdout>: Warning (clocks_property): /soc/hdmi@1c16000:clocks: cell 6 is not a e
+<stdout>: Warning (clocks_property): /soc/serial@1c28c00:clocks: cell 0 is not e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e60000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e60000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/display-backend@1e60000:clocks: cell e
+<stdout>: Warning (clocks_property): /soc/spi@1c17000:clocks: cell 0 is not a pe
+<stdout>: Warning (clocks_property): /soc/spi@1c17000:clocks: cell 2 is not a pe
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-hdmi:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0:clocks: cell e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-fe0-lcd0-tve0:clocks: e
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /chosen/framebuffer-lcd0-hdmi:clocks: celle
+<stdout>: Warning (clocks_property): /cpus/cpu@0:clocks: cell 0 is not a phandle
+<stdout>: Warning (cooling_device_property): /thermal-zones/cpu-thermal/coolinge
+<stdout>: Warning (dmas_property): /soc/spdif@1c21000:dmas: cell 0 is not a phae
+<stdout>: Warning (dmas_property): /soc/spdif@1c21000:dmas: cell 3 is not a phae
+<stdout>: Warning (dmas_property): /soc/spi@1c06000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c06000:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/lcd-controller@1c0c000:dmas: cell 0 is e
+<stdout>: Warning (dmas_property): /soc/spi@1c1f000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c1f000:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/nand-controller@1c03000:dmas: cell 0 ise
+<stdout>: Warning (dmas_property): /soc/spi@1c05000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c05000:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/i2s@1c22400:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/i2s@1c22400:dmas: cell 3 is not a phande
+<stdout>: Warning (dmas_property): /soc/codec@1c22c00:dmas: cell 0 is not a phae
+<stdout>: Warning (dmas_property): /soc/codec@1c22c00:dmas: cell 3 is not a phae
+<stdout>: Warning (dmas_property): /soc/lcd-controller@1c0d000:dmas: cell 0 is e
+<stdout>: Warning (dmas_property): /soc/hdmi@1c16000:dmas: cell 0 is not a phane
+<stdout>: Warning (dmas_property): /soc/hdmi@1c16000:dmas: cell 3 is not a phane
+<stdout>: Warning (dmas_property): /soc/hdmi@1c16000:dmas: cell 6 is not a phane
+<stdout>: Warning (dmas_property): /soc/spi@1c17000:dmas: cell 0 is not a phande
+<stdout>: Warning (dmas_property): /soc/spi@1c17000:dmas: cell 3 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c14400:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c1c400:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c14000:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c1c000:phys: cell 0 is not a phande
+<stdout>: Warning (phys_property): /soc/usb@1c13000:phys: cell 0 is not a phande
+<stdout>: Warning (resets_property): /soc/lcd-controller@1c0c000:resets: cell 0e
+<stdout>: Warning (resets_property): /soc/gpu@1c40000:resets: cell 0 is not a pe
+<stdout>: Warning (resets_property): /soc/display-frontend@1e20000:resets: celle
+<stdout>: Warning (resets_property): /soc/display-backend@1e40000:resets: cell e
+<stdout>: Warning (resets_property): /soc/phy@1c13400:resets: cell 0 is not a pe
+<stdout>: Warning (resets_property): /soc/phy@1c13400:resets: cell 2 is not a pe
+<stdout>: Warning (resets_property): /soc/phy@1c13400:resets: cell 4 is not a pe
+<stdout>: Warning (resets_property): /soc/lcd-controller@1c0d000:resets: cell 0e
+<stdout>: Warning (resets_property): /soc/csi@1c1d000:resets: cell 0 is not a pe
+<stdout>: Warning (resets_property): /soc/display-frontend@1e00000:resets: celle
+<stdout>: Warning (resets_property): /soc/video-codec@1c0e000:resets: cell 0 ise
+<stdout>: Warning (resets_property): /soc/display-backend@1e60000:resets: cell e
+<stdout>: Warning (thermal_sensors_property): /thermal-zones/cpu-thermal:thermae
+<stdout>: Warning (gpios_property): /usb2-vbus:gpio: cell 0 is not a phandle ree
+<stdout>: Warning (gpios_property): /usb1-vbus:gpio: cell 0 is not a phandle ree
+<stdout>: Warning (gpios_property): /soc/mmc@1c0f000:cd-gpios: cell 0 is not a e
+<stdout>: Warning (gpios_property): /soc/phy@1c13400:usb0_vbus_det-gpios: cell e
+<stdout>: Warning (gpios_property): /soc/phy@1c13400:usb0_id_det-gpios: cell 0 e
+<stdout>: Warning (gpios_property): /leds/green:gpios: cell 0 is not a phandle e
+<stdout>: Warning (gpios_property): /ahci-5v:gpio: cell 0 is not a phandle refee
+<stdout>: Warning (gpios_property): /usb0-vbus:gpio: cell 0 is not a phandle ree
+<stdout>: Warning (alias_paths): /aliases:serial7: aliases property is not a va)
+<stdout>: Warning (alias_paths): /aliases:serial5: aliases property is not a va)
+<stdout>: Warning (alias_paths): /aliases:serial3: aliases property is not a va)
+<stdout>: Warning (alias_paths): /aliases:serial6: aliases property is not a va)
+<stdout>: Warning (alias_paths): /aliases:serial4: aliases property is not a va)
+/dts-v1/;                                                                       
+                                                                                
+/ {                                                                             
+        compatible = "olimex,a10-olinuxino-lime\0allwinner,sun4i-a10";          
+        serial-number = "00000000";                                             
+        model = "Olimex A10-OLinuXino-LIME";                                    
+        interrupt-parent = <0x01>;                                              
+        #address-cells = <0x01>;                                                
+        #size-cells = <0x01>;                                                   
+                                                                                
+        reserved-memory {                                                       
+                ranges;                                                         
+                #address-cells = <0x01>;                                        
+                #size-cells = <0x01>;                                           
+                                                                                
+                default-pool {                                                  
+                        reusable;                                               
+                        compatible = "shared-dma-pool";                         
+                        alloc-ranges = <0x40000000 0x10000000>;                 
+                        size = <0x6000000>;                                     
+                        linux,cma-default;                                      
+                };                                                              
+        };                                                                      
+                                                                                
+        clocks {                                                                
+                ranges;                                                         
+                #address-cells = <0x01>;                                        
+                #size-cells = <0x01>;                                           
+                                                                                
+                clk-24M {                                                       
+                        compatible = "fixed-clock";                             
+                        #clock-cells = <0x00>;                                  
+                        phandle = <0x22>;                                       
+                        clock-output-names = "osc24M";                          
+                        clock-frequency = <0x16e3600>;                          
+                };                                                              
+                                                                                
+                clk-32k {                                                       
+                        compatible = "fixed-clock";                             
+                        #clock-cells = <0x00>;                                  
+                        phandle = <0x23>;                                       
+                        clock-output-names = "osc32k";                          
+                        clock-frequency = <0x8000>;                             
+                };                                                              
+        };                                                                      
+                                                                                
+        usb2-vbus {                                                             
+                compatible = "regulator-fixed";                                 
+                regulator-boot-on;                                              
+                enable-active-high;                                             
+                gpio = <0x17 0x07 0x03 0x00>;                                   
+                status = "okay";                                                
+                phandle = <0x1d>;                                               
+                regulator-min-microvolt = <0x4c4b40>;                           
+                regulator-max-microvolt = <0x4c4b40>;                           
+                regulator-name = "usb2-vbus";                                   
+        };                                                                      
+                                                                                
+        display-engine {                                                        
+                compatible = "allwinner,sun4i-a10-display-engine";              
+                allwinner,pipelines = <0x06 0x07>;                              
+                status = "okay";                                                
+                phandle = <0x37>;                                               
+        };                                                                      
+                                                                                
+        __symbols__ {                                                           
+                pwm = "/soc/pwm@1c20e00";                                       
+                led_pins_olinuxinolime = "/soc/pinctrl@1c20800/led-pin";        
+                tcon1_in_be1 = "/soc/lcd-controller@1c0d000/ports/port@0/endpoi;
+                reg_usb1_vbus = "/usb1-vbus";                                   
+                mdio = "/soc/mdio@1c0b080";                                     
+                reg_ahci_5v = "/ahci-5v";                                       
+                spi2_cs0_pb_pin = "/soc/pinctrl@1c20800/spi2-cs0-pb-pin";       
+                ps2_ch0_pins = "/soc/pinctrl@1c20800/ps2-ch0-pins";             
+                intc = "/soc/interrupt-controller@1c20400";                     
+                ehci1 = "/soc/usb@1c1c000";                                     
+                spi2 = "/soc/spi@1c17000";                                      
+                tcon0_out_hdmi = "/soc/lcd-controller@1c0c000/ports/port@1/endp;
+                pwm1_pin = "/soc/pinctrl@1c20800/pwm1-pin";                     
+                spi2_pc_pins = "/soc/pinctrl@1c20800/spi2-pc-pins";             
+                csi1_clk_pg_pin = "/soc/pinctrl@1c20800/csi1-clk-pg-pin";       
+                fe0_out_be1 = "/soc/display-frontend@1e00000/ports/port@1/endpo;
+                i2c1 = "/soc/i2c@1c2b000";                                      
+                be1_out_tcon0 = "/soc/display-backend@1e40000/ports/port@1/endp;
+                mmc2_pins = "/soc/pinctrl@1c20800/mmc2-pins";                   
+                uart0_pf_pins = "/soc/pinctrl@1c20800/uart0-pf-pins";           
+                mmc3 = "/soc/mmc@1c12000";                                      
+                mali = "/soc/gpu@1c40000";                                      
+                be1_in = "/soc/display-backend@1e40000/ports/port@0";           
+                ve_sram = "/soc/system-control@1c00000/sram@1d00000/sram-sectio;
+                ir1 = "/soc/ir@1c21c00";                                        
+                be1_out = "/soc/display-backend@1e40000/ports/port@1";          
+                reg_usb0_vbus = "/usb0-vbus";                                   
+                hdmi_in = "/soc/hdmi@1c16000/ports/port@0";                     
+                spi0 = "/soc/spi@1c05000";                                      
+                cpu_alert0 = "/thermal-zones/cpu-thermal/trips/cpu-alert0";     
+                tcon0_in_be1 = "/soc/lcd-controller@1c0c000/ports/port@0/endpoi;
+                uart4_pg_pins = "/soc/pinctrl@1c20800/uart4-pg-pins";           
+                uart5_pi_pins = "/soc/pinctrl@1c20800/uart5-pi-pins";           
+                reg_vcc3v0 = "/vcc3v0";                                         
+                tcon0_in = "/soc/lcd-controller@1c0c000/ports/port@0";          
+                be0_out_tcon1 = "/soc/display-backend@1e60000/ports/port@1/endp;
+                ohci0 = "/soc/usb@1c14400";                                     
+                emac_pins = "/soc/pinctrl@1c20800/emac0-pins";                  
+                be1 = "/soc/display-backend@1e40000";                           
+                csi1_8bits_pg_pins = "/soc/pinctrl@1c20800/csi1-8bits-pg-pins"; 
+                mmc1 = "/soc/mmc@1c10000";                                      
+                hdmi_con_in = "/hdmi-connector/port/endpoint";                  
+                be1_in_fe0 = "/soc/display-backend@1e40000/ports/port@0/endpoin;
+                uart6 = "/soc/serial@1c29800";                                  
+                rtp = "/soc/rtp@1c25000";                                       
+                spi2_pb_pins = "/soc/pinctrl@1c20800/spi2-pb-pins";             
+                ir1_rx_pins = "/soc/pinctrl@1c20800/ir1-rx-pin";                
+                phy1 = "/soc/mdio@1c0b080/ethernet-phy@1";                      
+                dma = "/soc/dma-controller@1c02000";                            
+                fe0_out = "/soc/display-frontend@1e00000/ports/port@1";         
+                ccu = "/soc/clock@1c20000";                                     
+                hdmi_in_tcon1 = "/soc/hdmi@1c16000/ports/port@0/endpoint@1";    
+                otg_sram = "/soc/system-control@1c00000/sram@10000/sram-section;
+                can0_ph_pins = "/soc/pinctrl@1c20800/can0-ph-pins";             
+                uart4 = "/soc/serial@1c29000";                                  
+                usb_otg = "/soc/usb@1c13000";                                   
+                spi1_cs0_pin = "/soc/pinctrl@1c20800/spi1-cs0-pin";             
+                spi1_pins = "/soc/pinctrl@1c20800/spi1-pins";                   
+                nfc = "/soc/nand-controller@1c03000";                           
+                ahci = "/soc/sata@1c18000";                                     
+                i2c2_pins = "/soc/pinctrl@1c20800/i2c2-pins";                   
+                be0_in_fe0 = "/soc/display-backend@1e60000/ports/port@0/endpoin;
+                eeprom = "/soc/i2c@1c2b000/eeprom@50";                          
+                tcon1_out_hdmi = "/soc/lcd-controller@1c0d000/ports/port@1/endp;
+                hdmi_out_con = "/soc/hdmi@1c16000/ports/port@1/endpoint";       
+                fe1_out_be1 = "/soc/display-frontend@1e20000/ports/port@1/endpo;
+                mmc0_pins = "/soc/pinctrl@1c20800/mmc0-pins";                   
+                uart2 = "/soc/serial@1c28800";                                  
+                tcon0 = "/soc/lcd-controller@1c0c000";                          
+                csi1 = "/soc/csi@1c1d000";                                      
+                sram_c = "/soc/system-control@1c00000/sram@1d00000";            
+                spi0_cs0_pi_pin = "/soc/pinctrl@1c20800/spi0-cs0-pi-pin";       
+                hdmi_out = "/soc/hdmi@1c16000/ports/port@1";                    
+                usbphy = "/soc/phy@1c13400";                                    
+                uart6_pi_pins = "/soc/pinctrl@1c20800/uart6-pi-pins";           
+                emac_sram = "/soc/system-control@1c00000/sram@0/sram-section@80;
+                be0_in = "/soc/display-backend@1e60000/ports/port@0";           
+                ps20 = "/soc/ps2@1c2a000";                                      
+                can0 = "/soc/can@1c2bc00";                                      
+                uart0 = "/soc/serial@1c28000";                                  
+                i2c1_pins = "/soc/pinctrl@1c20800/i2c1-pins";                   
+                sram_a = "/soc/system-control@1c00000/sram@0";                  
+                osc24M = "/clocks/clk-24M";                                     
+                spi3 = "/soc/spi@1c1f000";                                      
+                reg_vcc3v3 = "/vcc3v3";                                         
+                fe0 = "/soc/display-frontend@1e00000";                          
+                wdt = "/soc/watchdog@1c20c90";                                  
+                fe1_out = "/soc/display-frontend@1e20000/ports/port@1";         
+                spdif_tx_pin = "/soc/pinctrl@1c20800/spdif-tx-pin";             
+                tcon0_out = "/soc/lcd-controller@1c0c000/ports/port@1";         
+                i2c2 = "/soc/i2c@1c2b400";                                      
+                tcon1_in_be0 = "/soc/lcd-controller@1c0d000/ports/port@0/endpoi;
+                reg_vcc5v0 = "/vcc5v0";                                         
+                be1_out_tcon1 = "/soc/display-backend@1e40000/ports/port@1/endp;
+                spdif = "/soc/spdif@1c21000";                                   
+                uart1_pins = "/soc/pinctrl@1c20800/uart1-pins";                 
+                spi0_pi_pins = "/soc/pinctrl@1c20800/spi0-pi-pins";             
+                ehci0 = "/soc/usb@1c14000";                                     
+                spi1 = "/soc/spi@1c06000";                                      
+                ohci1 = "/soc/usb@1c1c400";                                     
+                osc32k = "/clocks/clk-32k";                                     
+                fe0_out_be0 = "/soc/display-frontend@1e00000/ports/port@1/endpo;
+                i2s0 = "/soc/i2s@1c22400";                                      
+                i2c0 = "/soc/i2c@1c2ac00";                                      
+                mmc2 = "/soc/mmc@1c11000";                                      
+                i2c0_pins = "/soc/pinctrl@1c20800/i2c0-pins";                   
+                ir0_tx_pins = "/soc/pinctrl@1c20800/ir0-tx-pin";                
+                be1_in_fe1 = "/soc/display-backend@1e40000/ports/port@0/endpoin;
+                uart7 = "/soc/serial@1c29c00";                                  
+                csi1_24bits_ph_pins = "/soc/pinctrl@1c20800/csi1-24bits-ph-pins;
+                ir0 = "/soc/ir@1c21800";                                        
+                tcon0_in_be0 = "/soc/lcd-controller@1c0c000/ports/port@0/endpoi;
+                uart0_pb_pins = "/soc/pinctrl@1c20800/uart0-pb-pins";           
+                be0_out_tcon0 = "/soc/display-backend@1e60000/ports/port@1/endp;
+                be0 = "/soc/display-backend@1e60000";                           
+                lradc = "/soc/lradc@1c22800";                                   
+                mmc0 = "/soc/mmc@1c0f000";                                      
+                codec = "/soc/codec@1c22c00";                                   
+                uart5 = "/soc/serial@1c29400";                                  
+                uart7_pi_pins = "/soc/pinctrl@1c20800/uart7-pi-pins";           
+                emac = "/soc/ethernet@1c0b000";                                 
+                crypto = "/soc/crypto-engine@1c15000";                          
+                tcon1_out = "/soc/lcd-controller@1c0d000/ports/port@1";         
+                be0_in_fe1 = "/soc/display-backend@1e60000/ports/port@0/endpoin;
+                pwm0_pin = "/soc/pinctrl@1c20800/pwm0-pin";                     
+                tcon1_in = "/soc/lcd-controller@1c0d000/ports/port@0";          
+                hdmi_in_tcon0 = "/soc/hdmi@1c16000/ports/port@0/endpoint@0";    
+                pio = "/soc/pinctrl@1c20800";                                   
+                reg_usb2_vbus = "/usb2-vbus";                                   
+                uart3 = "/soc/serial@1c28c00";                                  
+                uart3_pg_pins = "/soc/pinctrl@1c20800/uart3-pg-pins";           
+                tcon1 = "/soc/lcd-controller@1c0d000";                          
+                sram_d = "/soc/system-control@1c00000/sram@10000";              
+                axp209 = "/soc/i2c@1c2ac00/pmic@34";                            
+                be0_out = "/soc/display-backend@1e60000/ports/port@1";          
+                hdmi = "/soc/hdmi@1c16000";                                     
+                cpu_crit = "/thermal-zones/cpu-thermal/trips/cpu-crit";         
+                ps2_ch1_ph_pins = "/soc/pinctrl@1c20800/ps2-ch1-ph-pins";       
+                spi2_cs0_pc_pins = "/soc/pinctrl@1c20800/spi2-cs0-pc-pin";      
+                de = "/display-engine";                                         
+                ps21 = "/soc/ps2@1c2a400";                                      
+                fe1_out_be0 = "/soc/display-frontend@1e20000/ports/port@1/endpo;
+                uart1 = "/soc/serial@1c28400";                                  
+                rtc = "/soc/rtc@1c20d00";                                       
+                ir1_tx_pins = "/soc/pinctrl@1c20800/ir1-tx-pin";                
+                ir0_rx_pins = "/soc/pinctrl@1c20800/ir0-rx-pin";                
+                sid = "/soc/eeprom@1c23800";                                    
+                fe1 = "/soc/display-frontend@1e20000";                          
+                cpu0 = "/cpus/cpu@0";                                           
+        };                                                                      
+                                                                                
+        usb1-vbus {                                                             
+                compatible = "regulator-fixed";                                 
+                regulator-boot-on;                                              
+                enable-active-high;                                             
+                gpio = <0x17 0x07 0x06 0x00>;                                   
+                status = "okay";                                                
+                phandle = <0x1c>;                                               
+                regulator-min-microvolt = <0x4c4b40>;                           
+                regulator-max-microvolt = <0x4c4b40>;                           
+                regulator-name = "usb1-vbus";                                   
+        };                                                                      
+                                                                                
+        soc {                                                                   
+                compatible = "simple-bus";                                      
+                ranges;                                                         
+                #address-cells = <0x01>;                                        
+                #size-cells = <0x01>;                                           
+                                                                                
+                spdif@1c21000 {                                                 
+                        compatible = "allwinner,sun4i-a10-spdif";               
+                        clocks = <0x02 0x46 0x02 0x78>;                         
+                        #sound-dai-cells = <0x00>;                              
+                        clock-names = "apb\0spdif";                             
+                        status = "disabled";                                    
+                        interrupts = <0x0d>;                                    
+                        dma-names = "rx\0tx";                                   
+                        phandle = <0x6f>;                                       
+                        reg = <0x1c21000 0x400>;                                
+                        dmas = <0x08 0x00 0x02 0x08 0x00 0x02>;                 
+                };                                                              
+                                                                                
+                spi@1c06000 {                                                   
+                        compatible = "allwinner,sun4i-a10-spi";                 
+                        clocks = <0x02 0x2d 0x02 0x71>;                         
+                        clock-names = "ahb\0mod";                               
+                        status = "disabled";                                    
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x0b>;                                    
+                        #size-cells = <0x00>;                                   
+                        dma-names = "rx\0tx";                                   
+                        phandle = <0x3d>;                                       
+                        reg = <0x1c06000 0x1000>;                               
+                        pinctrl-0 = <0x09 0x0a>;                                
+                        dmas = <0x08 0x01 0x09 0x08 0x01 0x08>;                 
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                serial@1c28000 {                                                
+                        reg-io-width = <0x04>;                                  
+                        compatible = "snps,dw-apb-uart";                        
+                        clocks = <0x02 0x58>;                                   
+                        status = "okay";                                        
+                        interrupts = <0x01>;                                    
+                        phandle = <0x76>;                                       
+                        reg = <0x1c28000 0x400>;                                
+                        pinctrl-0 = <0x24>;                                     
+                        reg-shift = <0x02>;                                     
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                watchdog@1c20c90 {                                              
+                        compatible = "allwinner,sun4i-a10-wdt";                 
+                        clocks = <0x22>;                                        
+                        interrupts = <0x18>;                                    
+                        phandle = <0x6c>;                                       
+                        reg = <0x1c20c90 0x10>;                                 
+                };                                                              
+                                                                                
+                pwm@1c20e00 {                                                   
+                        compatible = "allwinner,sun4i-a10-pwm";                 
+                        clocks = <0x22>;                                        
+                        status = "okay";                                        
+                        phandle = <0x6e>;                                       
+                        reg = <0x1c20e00 0x0c>;                                 
+                        pinctrl-0 = <0x91>;                                     
+                        #pwm-cells = <0x03>;                                    
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                ps2@1c2a000 {                                                   
+                        compatible = "allwinner,sun4i-a10-ps2";                 
+                        clocks = <0x02 0x55>;                                   
+                        status = "disabled";                                    
+                        interrupts = <0x3e>;                                    
+                        phandle = <0x7e>;                                       
+                        reg = <0x1c2a000 0x400>;                                
+                };                                                              
+                                                                                
+                ir@1c21c00 {                                                    
+                        compatible = "allwinner,sun4i-a10-ir";                  
+                        clocks = <0x02 0x4c 0x02 0x75>;                         
+                        clock-names = "apb\0ir";                                
+                        status = "disabled";                                    
+                        interrupts = <0x06>;                                    
+                        phandle = <0x71>;                                       
+                        reg = <0x1c21c00 0x40>;                                 
+                };                                                              
+                                                                                
+                lcd-controller@1c0c000 {                                        
+                        compatible = "allwinner,sun4i-a10-tcon";                
+                        clocks = <0x02 0x38 0x02 0x95 0x02 0x9b>;               
+                        resets = <0x02 0x0b>;                                   
+                        clock-names = "ahb\0tcon-ch0\0tcon-ch1";                
+                        interrupts = <0x2c>;                                    
+                        #clock-cells = <0x00>;                                  
+                        phandle = <0x40>;                                       
+                        reg = <0x1c0c000 0x1000>;                               
+                        clock-output-names = "tcon0-pixel-clock";               
+                        dmas = <0x08 0x01 0x0e>;                                
+                        reset-names = "lcd";                                    
+                                                                                
+                        ports {                                                 
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x00>;                           
+                                                                                
+                                port@1 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x42>;                       
+                                        reg = <0x01>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x10>;       
+                                                allwinner,tcon-channel = <0x01>;
+                                                phandle = <0x1e>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                };                                              
+                                                                                
+                                port@0 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x41>;                       
+                                        reg = <0x00>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x0f>;       
+                                                phandle = <0x2e>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                                                                
+                                        endpoint@0 {                            
+                                                remote-endpoint = <0x0e>;       
+                                                phandle = <0x32>;               
+                                                reg = <0x00>;                   
+                                        };                                      
+                                };                                              
+                        };                                                      
+                };                                                              
+                                                                                
+                sata@1c18000 {                                                  
+                        compatible = "allwinner,sun4i-a10-ahci";                
+                        clocks = <0x02 0x31 0x02 0x7a>;                         
+                        target-supply = <0x21>;                                 
+                        status = "okay";                                        
+                        interrupts = <0x38>;                                    
+                        phandle = <0x52>;                                       
+                        reg = <0x1c18000 0x1000>;                               
+                };                                                              
+                                                                                
+                mmc@1c0f000 {                                                   
+                        compatible = "allwinner,sun4i-a10-mmc";                 
+                        clocks = <0x02 0x22 0x02 0x62>;                         
+                        clock-names = "ahb\0mmc";                               
+                        cd-gpios = <0x17 0x07 0x01 0x01>;                       
+                        status = "okay";                                        
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x20>;                                    
+                        bus-width = <0x04>;                                     
+                        #size-cells = <0x00>;                                   
+                        phandle = <0x46>;                                       
+                        reg = <0x1c0f000 0x1000>;                               
+                        pinctrl-0 = <0x15>;                                     
+                        vmmc-supply = <0x16>;                                   
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                spi@1c1f000 {                                                   
+                        compatible = "allwinner,sun4i-a10-spi";                 
+                        clocks = <0x02 0x2f 0x02 0x7f>;                         
+                        clock-names = "ahb\0mod";                               
+                        status = "disabled";                                    
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x32>;                                    
+                        #size-cells = <0x00>;                                   
+                        dma-names = "rx\0tx";                                   
+                        phandle = <0x56>;                                       
+                        reg = <0x1c1f000 0x1000>;                               
+                        dmas = <0x08 0x01 0x1f 0x08 0x01 0x1e>;                 
+                };                                                              
+                                                                                
+                nand-controller@1c03000 {                                       
+                        compatible = "allwinner,sun4i-a10-nand";                
+                        clocks = <0x02 0x27 0x02 0x60>;                         
+                        clock-names = "ahb\0mod";                               
+                        status = "disabled";                                    
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x25>;                                    
+                        #size-cells = <0x00>;                                   
+                        dma-names = "rxtx";                                     
+                        phandle = <0x3b>;                                       
+                        reg = <0x1c03000 0x1000>;                               
+                        dmas = <0x08 0x01 0x03>;                                
+                };                                                              
+                                                                                
+                interrupt-controller@1c20400 {                                  
+                        compatible = "allwinner,sun4i-a10-ic";                  
+                        #interrupt-cells = <0x01>;                              
+                        phandle = <0x01>;                                       
+                        reg = <0x1c20400 0x400>;                                
+                        interrupt-controller;                                   
+                };                                                              
+                                                                                
+                rtc@1c20d00 {                                                   
+                        compatible = "allwinner,sun4i-a10-rtc";                 
+                        interrupts = <0x18>;                                    
+                        phandle = <0x6d>;                                       
+                        reg = <0x1c20d00 0x20>;                                 
+                };                                                              
+                                                                                
+                mdio@1c0b080 {                                                  
+                        compatible = "allwinner,sun4i-a10-mdio";                
+                        status = "okay";                                        
+                        #address-cells = <0x01>;                                
+                        #size-cells = <0x00>;                                   
+                        phandle = <0x3f>;                                       
+                        reg = <0x1c0b080 0x14>;                                 
+                                                                                
+                        ethernet-phy@1 {                                        
+                                phandle = <0x0d>;                               
+                                reg = <0x01>;                                   
+                        };                                                      
+                };                                                              
+                                                                                
+                mmc@1c11000 {                                                   
+                        compatible = "allwinner,sun4i-a10-mmc";                 
+                        clocks = <0x02 0x24 0x02 0x68>;                         
+                        clock-names = "ahb\0mmc";                               
+                        status = "disabled";                                    
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x22>;                                    
+                        #size-cells = <0x00>;                                   
+                        phandle = <0x48>;                                       
+                        reg = <0x1c11000 0x1000>;                               
+                        pinctrl-0 = <0x18>;                                     
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                serial@1c29800 {                                                
+                        reg-io-width = <0x04>;                                  
+                        compatible = "snps,dw-apb-uart";                        
+                        clocks = <0x02 0x5e>;                                   
+                        status = "okay";                                        
+                        interrupts = <0x13>;                                    
+                        phandle = <0x7c>;                                       
+                        reg = <0x1c29800 0x400>;                                
+                        pinctrl-0 = <0x95>;                                     
+                        reg-shift = <0x02>;                                     
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                ethernet@1c0b000 {                                              
+                        phy-handle = <0x0d>;                                    
+                        compatible = "allwinner,sun4i-a10-emac";                
+                        clocks = <0x02 0x2a>;                                   
+                        local-mac-address = [02 d6 08 c2 ec 6f];                
+                        status = "okay";                                        
+                        interrupts = <0x37>;                                    
+                        allwinner,sram = <0x0b 0x01>;                           
+                        phandle = <0x3e>;                                       
+                        reg = <0x1c0b000 0x1000>;                               
+                        pinctrl-0 = <0x0c>;                                     
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                usb@1c14400 {                                                   
+                        compatible = "allwinner,sun4i-a10-ohci\0generic-ohci";  
+                        clocks = <0x02 0x7b 0x02 0x1c>;                         
+                        phy-names = "usb";                                      
+                        status = "okay";                                        
+                        interrupts = <0x40>;                                    
+                        phandle = <0x4c>;                                       
+                        phys = <0x19 0x01>;                                     
+                        reg = <0x1c14400 0x100>;                                
+                };                                                              
+                                                                                
+                system-control@1c00000 {                                        
+                        compatible = "allwinner,sun4i-a10-system-control";      
+                        ranges;                                                 
+                        #address-cells = <0x01>;                                
+                        #size-cells = <0x01>;                                   
+                        reg = <0x1c00000 0x30>;                                 
+                                                                                
+                        sram@10000 {                                            
+                                compatible = "mmio-sram";                       
+                                ranges = <0x00 0x10000 0x1000>;                 
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x01>;                           
+                                phandle = <0x39>;                               
+                                reg = <0x10000 0x1000>;                         
+                                                                                
+                                sram-section@0 {                                
+                                        compatible = "allwinner,sun4i-a10-sram-;
+                                        status = "okay";                        
+                                        phandle = <0x1a>;                       
+                                        reg = <0x00 0x1000>;                    
+                                };                                              
+                        };                                                      
+                                                                                
+                        sram@0 {                                                
+                                compatible = "mmio-sram";                       
+                                ranges = <0x00 0x00 0xc000>;                    
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x01>;                           
+                                phandle = <0x38>;                               
+                                reg = <0x00 0xc000>;                            
+                                                                                
+                                sram-section@8000 {                             
+                                        compatible = "allwinner,sun4i-a10-sram-;
+                                        status = "okay";                        
+                                        phandle = <0x0b>;                       
+                                        reg = <0x8000 0x4000>;                  
+                                };                                              
+                        };                                                      
+                                                                                
+                        sram@1d00000 {                                          
+                                compatible = "mmio-sram";                       
+                                ranges = <0x00 0x1d00000 0xd0000>;              
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x01>;                           
+                                phandle = <0x3a>;                               
+                                reg = <0x1d00000 0xd0000>;                      
+                                                                                
+                                sram-section@0 {                                
+                                        compatible = "allwinner,sun4i-a10-sram-;
+                                        phandle = <0x14>;                       
+                                        reg = <0x00 0x80000>;                   
+                                };                                              
+                        };                                                      
+                };                                                              
+                                                                                
+                spi@1c05000 {                                                   
+                        compatible = "allwinner,sun4i-a10-spi";                 
+                        clocks = <0x02 0x2c 0x02 0x70>;                         
+                        clock-names = "ahb\0mod";                               
+                        status = "disabled";                                    
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x0a>;                                    
+                        #size-cells = <0x00>;                                   
+                        dma-names = "rx\0tx";                                   
+                        phandle = <0x3c>;                                       
+                        reg = <0x1c05000 0x1000>;                               
+                        dmas = <0x08 0x01 0x1b 0x08 0x01 0x1a>;                 
+                };                                                              
+                                                                                
+                gpu@1c40000 {                                                   
+                        compatible = "allwinner,sun4i-a10-mali\0arm,mali-400";  
+                        clocks = <0x02 0x44 0x02 0xa5>;                         
+                        resets = <0x02 0x13>;                                   
+                        clock-names = "bus\0core";                              
+                        interrupts = <0x45 0x46 0x47 0x48 0x49>;                
+                        assigned-clock-rates = <0x16e36000>;                    
+                        assigned-clocks = <0x02 0xa5>;                          
+                        phandle = <0x86>;                                       
+                        reg = <0x1c40000 0x10000>;                              
+                        interrupt-names = "gp\0gpmmu\0pp0\0ppmmu0\0pmu";        
+                };                                                              
+                                                                                
+                display-frontend@1e20000 {                                      
+                        compatible = "allwinner,sun4i-a10-display-frontend";    
+                        clocks = <0x02 0x41 0x02 0x93 0x02 0x8a>;               
+                        resets = <0x02 0x08>;                                   
+                        clock-names = "ahb\0mod\0ram";                          
+                        interrupts = <0x30>;                                    
+                        phandle = <0x07>;                                       
+                        reg = <0x1e20000 0x20000>;                              
+                                                                                
+                        ports {                                                 
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x00>;                           
+                                                                                
+                                port@1 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x88>;                       
+                                        reg = <0x01>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x2b>;       
+                                                phandle = <0x2d>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                                                                
+                                        endpoint@0 {                            
+                                                remote-endpoint = <0x2a>;       
+                                                phandle = <0x31>;               
+                                                reg = <0x00>;                   
+                                        };                                      
+                                };                                              
+                        };                                                      
+                };                                                              
+                                                                                
+                lradc@1c22800 {                                                 
+                        compatible = "allwinner,sun4i-a10-lradc-keys";          
+                        status = "disabled";                                    
+                        interrupts = <0x1f>;                                    
+                        phandle = <0x73>;                                       
+                        reg = <0x1c22800 0x100>;                                
+                };                                                              
+                                                                                
+                display-backend@1e40000 {                                       
+                        compatible = "allwinner,sun4i-a10-display-backend";     
+                        clocks = <0x02 0x3f 0x02 0x91 0x02 0x8d>;               
+                        resets = <0x02 0x06>;                                   
+                        clock-names = "ahb\0mod\0ram";                          
+                        interrupts = <0x30>;                                    
+                        phandle = <0x89>;                                       
+                        reg = <0x1e40000 0x10000>;                              
+                                                                                
+                        ports {                                                 
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x00>;                           
+                                                                                
+                                port@1 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x8b>;                       
+                                        reg = <0x01>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x2f>;       
+                                                phandle = <0x12>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                                                                
+                                        endpoint@0 {                            
+                                                remote-endpoint = <0x2e>;       
+                                                phandle = <0x0f>;               
+                                                reg = <0x00>;                   
+                                        };                                      
+                                };                                              
+                                                                                
+                                port@0 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x8a>;                       
+                                        reg = <0x00>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x2d>;       
+                                                phandle = <0x2b>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                                                                
+                                        endpoint@0 {                            
+                                                remote-endpoint = <0x2c>;       
+                                                phandle = <0x29>;               
+                                                reg = <0x00>;                   
+                                        };                                      
+                                };                                              
+                        };                                                      
+                };                                                              
+                                                                                
+                i2c@1c2b400 {                                                   
+                        compatible = "allwinner,sun4i-a10-i2c";                 
+                        clocks = <0x02 0x51>;                                   
+                        status = "disabled";                                    
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x09>;                                    
+                        #size-cells = <0x00>;                                   
+                        phandle = <0x84>;                                       
+                        reg = <0x1c2b400 0x400>;                                
+                        pinctrl-0 = <0x27>;                                     
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                serial@1c29400 {                                                
+                        reg-io-width = <0x04>;                                  
+                        compatible = "snps,dw-apb-uart";                        
+                        clocks = <0x02 0x5d>;                                   
+                        status = "okay";                                        
+                        interrupts = <0x12>;                                    
+                        phandle = <0x7b>;                                       
+                        reg = <0x1c29400 0x400>;                                
+                        pinctrl-0 = <0x94>;                                     
+                        reg-shift = <0x02>;                                     
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                phy@1c13400 {                                                   
+                        compatible = "allwinner,sun4i-a10-usb-phy";             
+                        clocks = <0x02 0x7d>;                                   
+                        resets = <0x02 0x01 0x02 0x02 0x02 0x03>;               
+                        usb2_vbus-supply = <0x1d>;                              
+                        reg-names = "phy_ctrl\0pmu1\0pmu2";                     
+                        clock-names = "usb_phy";                                
+                        usb0_vbus_det-gpios = <0x17 0x07 0x05 0x10>;            
+                        status = "okay";                                        
+                        phandle = <0x19>;                                       
+                        usb0_id_det-gpios = <0x17 0x07 0x04 0x10>;              
+                        reg = <0x1c13400 0x10 0x1c14800 0x04 0x1c1c800 0x04>;   
+                        usb0_vbus-supply = <0x1b>;                              
+                        reset-names = "usb0_reset\0usb1_reset\0usb2_reset";     
+                        #phy-cells = <0x01>;                                    
+                        usb1_vbus-supply = <0x1c>;                              
+                };                                                              
+                                                                                
+                i2s@1c22400 {                                                   
+                        compatible = "allwinner,sun4i-a10-i2s";                 
+                        clocks = <0x02 0x47 0x02 0x76>;                         
+                        #sound-dai-cells = <0x00>;                              
+                        clock-names = "apb\0mod";                               
+                        status = "disabled";                                    
+                        interrupts = <0x10>;                                    
+                        dma-names = "rx\0tx";                                   
+                        phandle = <0x72>;                                       
+                        reg = <0x1c22400 0x400>;                                
+                        dmas = <0x08 0x00 0x03 0x08 0x00 0x03>;                 
+                };                                                              
+                                                                                
+                usb@1c1c400 {                                                   
+                        compatible = "allwinner,sun4i-a10-ohci\0generic-ohci";  
+                        clocks = <0x02 0x7c 0x02 0x1e>;                         
+                        phy-names = "usb";                                      
+                        status = "okay";                                        
+                        interrupts = <0x41>;                                    
+                        phandle = <0x54>;                                       
+                        phys = <0x19 0x02>;                                     
+                        reg = <0x1c1c400 0x100>;                                
+                };                                                              
+                                                                                
+                usb@1c14000 {                                                   
+                        compatible = "allwinner,sun4i-a10-ehci\0generic-ehci";  
+                        clocks = <0x02 0x1b>;                                   
+                        phy-names = "usb";                                      
+                        status = "okay";                                        
+                        interrupts = <0x27>;                                    
+                        phandle = <0x4b>;                                       
+                        phys = <0x19 0x01>;                                     
+                        reg = <0x1c14000 0x100>;                                
+                };                                                              
+                                                                                
+                mmc@1c10000 {                                                   
+                        compatible = "allwinner,sun4i-a10-mmc";                 
+                        clocks = <0x02 0x23 0x02 0x65>;                         
+                        clock-names = "ahb\0mmc";                               
+                        status = "disabled";                                    
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x21>;                                    
+                        #size-cells = <0x00>;                                   
+                        phandle = <0x47>;                                       
+                        reg = <0x1c10000 0x1000>;                               
+                };                                                              
+                                                                                
+                serial@1c29c00 {                                                
+                        reg-io-width = <0x04>;                                  
+                        compatible = "snps,dw-apb-uart";                        
+                        clocks = <0x02 0x5f>;                                   
+                        status = "okay";                                        
+                        interrupts = <0x14>;                                    
+                        phandle = <0x7d>;                                       
+                        reg = <0x1c29c00 0x400>;                                
+                        pinctrl-0 = <0x96>;                                     
+                        reg-shift = <0x02>;                                     
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                codec@1c22c00 {                                                 
+                        compatible = "allwinner,sun4i-a10-codec";               
+                        clocks = <0x02 0x45 0x02 0xa0>;                         
+                        #sound-dai-cells = <0x00>;                              
+                        clock-names = "apb\0codec";                             
+                        status = "disabled";                                    
+                        interrupts = <0x1e>;                                    
+                        dma-names = "rx\0tx";                                   
+                        phandle = <0x74>;                                       
+                        reg = <0x1c22c00 0x40>;                                 
+                        dmas = <0x08 0x00 0x13 0x08 0x00 0x13>;                 
+                };                                                              
+                                                                                
+                serial@1c28800 {                                                
+                        reg-io-width = <0x04>;                                  
+                        compatible = "snps,dw-apb-uart";                        
+                        clocks = <0x02 0x5a>;                                   
+                        status = "disabled";                                    
+                        interrupts = <0x03>;                                    
+                        phandle = <0x78>;                                       
+                        reg = <0x1c28800 0x400>;                                
+                        reg-shift = <0x02>;                                     
+                };                                                              
+                                                                                
+                crypto-engine@1c15000 {                                         
+                        compatible = "allwinner,sun4i-a10-crypto";              
+                        clocks = <0x02 0x1f 0x02 0x6f>;                         
+                        clock-names = "ahb\0mod";                               
+                        interrupts = <0x56>;                                    
+                        phandle = <0x4d>;                                       
+                        reg = <0x1c15000 0x1000>;                               
+                };                                                              
+                                                                                
+                i2c@1c2b000 {                                                   
+                        compatible = "allwinner,sun4i-a10-i2c";                 
+                        clocks = <0x02 0x50>;                                   
+                        status = "okay";                                        
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x08>;                                    
+                        #size-cells = <0x00>;                                   
+                        phandle = <0x82>;                                       
+                        reg = <0x1c2b000 0x400>;                                
+                        pinctrl-0 = <0x26>;                                     
+                        pinctrl-names = "default";                              
+                                                                                
+                        eeprom@50 {                                             
+                                compatible = "atmel,24c16";                     
+                                phandle = <0x83>;                               
+                                pagesize = <0x10>;                              
+                                reg = <0x50>;                                   
+                        };                                                      
+                };                                                              
+                                                                                
+                serial@1c29000 {                                                
+                        reg-io-width = <0x04>;                                  
+                        compatible = "snps,dw-apb-uart";                        
+                        clocks = <0x02 0x5c>;                                   
+                        status = "okay";                                        
+                        interrupts = <0x11>;                                    
+                        phandle = <0x7a>;                                       
+                        reg = <0x1c29000 0x400>;                                
+                        pinctrl-0 = <0x93>;                                     
+                        reg-shift = <0x02>;                                     
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                timer@1c20c00 {                                                 
+                        compatible = "allwinner,sun4i-a10-timer";               
+                        clocks = <0x22>;                                        
+                        interrupts = <0x16 0x17 0x18 0x19 0x43 0x44>;           
+                        reg = <0x1c20c00 0x90>;                                 
+                };                                                              
+                                                                                
+                can@1c2bc00 {                                                   
+                        compatible = "allwinner,sun4i-a10-can";                 
+                        clocks = <0x02 0x53>;                                   
+                        status = "disabled";                                    
+                        interrupts = <0x1a>;                                    
+                        phandle = <0x85>;                                       
+                        reg = <0x1c2bc00 0x400>;                                
+                };                                                              
+                                                                                
+                dma-controller@1c02000 {                                        
+                        #dma-cells = <0x02>;                                    
+                        compatible = "allwinner,sun4i-a10-dma";                 
+                        clocks = <0x02 0x20>;                                   
+                        interrupts = <0x1b>;                                    
+                        phandle = <0x08>;                                       
+                        reg = <0x1c02000 0x1000>;                               
+                };                                                              
+                                                                                
+                eeprom@1c23800 {                                                
+                        compatible = "allwinner,sun4i-a10-sid";                 
+                        phandle = <0x75>;                                       
+                        reg = <0x1c23800 0x10>;                                 
+                };                                                              
+                                                                                
+                usb@1c1c000 {                                                   
+                        compatible = "allwinner,sun4i-a10-ehci\0generic-ehci";  
+                        clocks = <0x02 0x1d>;                                   
+                        phy-names = "usb";                                      
+                        status = "okay";                                        
+                        interrupts = <0x28>;                                    
+                        phandle = <0x53>;                                       
+                        phys = <0x19 0x02>;                                     
+                        reg = <0x1c1c000 0x100>;                                
+                };                                                              
+                                                                                
+                clock@1c20000 {                                                 
+                        compatible = "allwinner,sun4i-a10-ccu";                 
+                        clocks = <0x22 0x23>;                                   
+                        #reset-cells = <0x01>;                                  
+                        clock-names = "hosc\0losc";                             
+                        #clock-cells = <0x01>;                                  
+                        phandle = <0x02>;                                       
+                        reg = <0x1c20000 0x400>;                                
+                };                                                              
+                                                                                
+                lcd-controller@1c0d000 {                                        
+                        compatible = "allwinner,sun4i-a10-tcon";                
+                        clocks = <0x02 0x39 0x02 0x96 0x02 0x9d>;               
+                        resets = <0x02 0x0d>;                                   
+                        clock-names = "ahb\0tcon-ch0\0tcon-ch1";                
+                        interrupts = <0x2d>;                                    
+                        #clock-cells = <0x00>;                                  
+                        phandle = <0x43>;                                       
+                        reg = <0x1c0d000 0x1000>;                               
+                        clock-output-names = "tcon1-pixel-clock";               
+                        dmas = <0x08 0x01 0x0f>;                                
+                        reset-names = "lcd";                                    
+                                                                                
+                        ports {                                                 
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x00>;                           
+                                                                                
+                                port@1 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x45>;                       
+                                        reg = <0x01>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x13>;       
+                                                allwinner,tcon-channel = <0x01>;
+                                                phandle = <0x1f>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                };                                              
+                                                                                
+                                port@0 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x44>;                       
+                                        reg = <0x00>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x12>;       
+                                                phandle = <0x2f>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                                                                
+                                        endpoint@0 {                            
+                                                remote-endpoint = <0x11>;       
+                                                phandle = <0x33>;               
+                                                reg = <0x00>;                   
+                                        };                                      
+                                };                                              
+                        };                                                      
+                };                                                              
+                                                                                
+                ir@1c21800 {                                                    
+                        compatible = "allwinner,sun4i-a10-ir";                  
+                        clocks = <0x02 0x4b 0x02 0x74>;                         
+                        clock-names = "apb\0ir";                                
+                        status = "disabled";                                    
+                        interrupts = <0x05>;                                    
+                        phandle = <0x70>;                                       
+                        reg = <0x1c21800 0x40>;                                 
+                };                                                              
+                                                                                
+                csi@1c1d000 {                                                   
+                        compatible = "allwinner,sun4i-a10-csi1";                
+                        clocks = <0x02 0x3b 0x02 0x84>;                         
+                        resets = <0x02 0x0f>;                                   
+                        clock-names = "bus\0ram";                               
+                        status = "disabled";                                    
+                        interrupts = <0x2b>;                                    
+                        phandle = <0x55>;                                       
+                        reg = <0x1c1d000 0x1000>;                               
+                };                                                              
+                                                                                
+                serial@1c28400 {                                                
+                        reg-io-width = <0x04>;                                  
+                        compatible = "snps,dw-apb-uart";                        
+                        clocks = <0x02 0x59>;                                   
+                        status = "disabled";                                    
+                        interrupts = <0x02>;                                    
+                        phandle = <0x77>;                                       
+                        reg = <0x1c28400 0x400>;                                
+                        reg-shift = <0x02>;                                     
+                };                                                              
+                                                                                
+                pinctrl@1c20800 {                                               
+                        compatible = "allwinner,sun4i-a10-pinctrl";             
+                        clocks = <0x02 0x4a 0x22 0x23>;                         
+                        clock-names = "apb\0hosc\0losc";                        
+                        gpio-controller;                                        
+                        #interrupt-cells = <0x03>;                              
+                        interrupts = <0x1c>;                                    
+                        phandle = <0x17>;                                       
+                        reg = <0x1c20800 0x400>;                                
+                        #gpio-cells = <0x03>;                                   
+                        interrupt-controller;                                   
+                                                                                
+                        spdif-tx-pin {                                          
+                                pins = "PB13";                                  
+                                phandle = <0x63>;                               
+                                function = "spdif";                             
+                                bias-pull-up;                                   
+                        };                                                      
+                                                                                
+                        mmc2-pins {                                             
+                                pins = "PC6\0PC7\0PC8\0PC9\0PC10\0PC11";        
+                                drive-strength = <0x1e>;                        
+                                phandle = <0x18>;                               
+                                function = "mmc2";                              
+                                bias-pull-up;                                   
+                        };                                                      
+                                                                                
+                        ir1-rx-pin {                                            
+                                pins = "PB23";                                  
+                                phandle = <0x5d>;                               
+                                function = "ir1";                               
+                        };                                                      
+                                                                                
+                        spi2-cs0-pc-pin {                                       
+                                pins = "PC19";                                  
+                                phandle = <0x69>;                               
+                                function = "spi2";                              
+                        };                                                      
+                                                                                
+                        spi2-pc-pins {                                          
+                                pins = "PC20\0PC21\0PC22";                      
+                                phandle = <0x67>;                               
+                                function = "spi2";                              
+                        };                                                      
+                                                                                
+                        uart0-pf-pins {                                         
+                                pins = "PF2\0PF4";                              
+                                phandle = <0x6a>;                               
+                                function = "uart0";                             
+                        };                                                      
+                                                                                
+                        spi1-cs0-pin {                                          
+                                pins = "PI16";                                  
+                                phandle = <0x0a>;                               
+                                function = "spi1";                              
+                        };                                                      
+                                                                                
+                        uart4-pg-pins {                                         
+                                pins = "PG10\0PG11";                            
+                                phandle = <0x93>;                               
+                                function = "uart4";                             
+                        };                                                      
+                                                                                
+                        uart5-pi-pins {                                         
+                                pins = "PI10\0PI11";                            
+                                phandle = <0x94>;                               
+                                function = "uart5";                             
+                        };                                                      
+                                                                                
+                        csi1-24bits-ph-pins {                                   
+                                pins = "PH0\0PH1\0PH2\0PH3\0PH4\0PH5\0PH6\0PH7\;
+                                phandle = <0x59>;                               
+                                function = "csi1";                              
+                        };                                                      
+                                                                                
+                        ir0-rx-pin {                                            
+                                pins = "PB4";                                   
+                                phandle = <0x5b>;                               
+                                function = "ir0";                               
+                        };                                                      
+                                                                                
+                        spi0-cs0-pi-pin {                                       
+                                pins = "PI10";                                  
+                                phandle = <0x65>;                               
+                                function = "spi0";                              
+                        };                                                      
+                                                                                
+                        spi2-pb-pins {                                          
+                                pins = "PB15\0PB16\0PB17";                      
+                                phandle = <0x66>;                               
+                                function = "spi2";                              
+                        };                                                      
+                                                                                
+                        spi1-pins {                                             
+                                pins = "PI17\0PI18\0PI19";                      
+                                phandle = <0x09>;                               
+                                function = "spi1";                              
+                        };                                                      
+                                                                                
+                        i2c2-pins {                                             
+                                pins = "PB20\0PB21";                            
+                                phandle = <0x27>;                               
+                                function = "i2c2";                              
+                        };                                                      
+                                                                                
+                        ps2-ch1-ph-pins {                                       
+                                pins = "PH12\0PH13";                            
+                                phandle = <0x60>;                               
+                                function = "ps2";                               
+                        };                                                      
+                                                                                
+                        can0-ph-pins {                                          
+                                pins = "PH20\0PH21";                            
+                                phandle = <0x57>;                               
+                                function = "can";                               
+                        };                                                      
+                                                                                
+                        mmc0-pins {                                             
+                                pins = "PF0\0PF1\0PF2\0PF3\0PF4\0PF5";          
+                                drive-strength = <0x1e>;                        
+                                phandle = <0x15>;                               
+                                function = "mmc0";                              
+                                bias-pull-up;                                   
+                        };                                                      
+                                                                                
+                        csi1-8bits-pg-pins {                                    
+                                pins = "PG0\0PG2\0PG3\0PG4\0PG5\0PG6\0PG7\0PG8\;
+                                phandle = <0x58>;                               
+                                function = "csi1";                              
+                        };                                                      
+                                                                                
+                        i2c1-pins {                                             
+                                pins = "PB18\0PB19";                            
+                                phandle = <0x26>;                               
+                                function = "i2c1";                              
+                        };                                                      
+                                                                                
+                        uart6-pi-pins {                                         
+                                pins = "PI12\0PI13";                            
+                                phandle = <0x95>;                               
+                                function = "uart6";                             
+                        };                                                      
+                                                                                
+                        uart1-pins {                                            
+                                pins = "PA10\0PA11";                            
+                                phandle = <0x6b>;                               
+                                function = "uart1";                             
+                        };                                                      
+                                                                                
+                        pwm0-pin {                                              
+                                pins = "PB2";                                   
+                                phandle = <0x91>;                               
+                                function = "pwm";                               
+                        };                                                      
+                                                                                
+                        spi0-pi-pins {                                          
+                                pins = "PI11\0PI12\0PI13";                      
+                                phandle = <0x64>;                               
+                                function = "spi0";                              
+                        };                                                      
+                                                                                
+                        i2c0-pins {                                             
+                                pins = "PB0\0PB1";                              
+                                phandle = <0x25>;                               
+                                function = "i2c0";                              
+                        };                                                      
+                                                                                
+                        emac0-pins {                                            
+                                pins = "PA0\0PA1\0PA2\0PA3\0PA4\0PA5\0PA6\0PA7\;
+                                phandle = <0x0c>;                               
+                                function = "emac";                              
+                        };                                                      
+                                                                                
+                        ps2-ch0-pins {                                          
+                                pins = "PI20\0PI21";                            
+                                phandle = <0x5f>;                               
+                                function = "ps2";                               
+                        };                                                      
+                                                                                
+                        uart0-pb-pins {                                         
+                                pins = "PB22\0PB23";                            
+                                phandle = <0x24>;                               
+                                function = "uart0";                             
+                        };                                                      
+                                                                                
+                        uart7-pi-pins {                                         
+                                pins = "PI20\0PI21";                            
+                                phandle = <0x96>;                               
+                                function = "uart7";                             
+                        };                                                      
+                                                                                
+                        ir1-tx-pin {                                            
+                                pins = "PB22";                                  
+                                phandle = <0x5e>;                               
+                                function = "ir1";                               
+                        };                                                      
+                                                                                
+                        spi2-cs0-pb-pin {                                       
+                                pins = "PB14";                                  
+                                phandle = <0x68>;                               
+                                function = "spi2";                              
+                        };                                                      
+                                                                                
+                        pwm1-pin {                                              
+                                pins = "PI3";                                   
+                                phandle = <0x62>;                               
+                                function = "pwm";                               
+                        };                                                      
+                                                                                
+                        uart3-pg-pins {                                         
+                                pins = "PG6\0PG7";                              
+                                phandle = <0x92>;                               
+                                function = "uart3";                             
+                        };                                                      
+                                                                                
+                        csi1-clk-pg-pin {                                       
+                                pins = "PG1";                                   
+                                phandle = <0x5a>;                               
+                                function = "csi1";                              
+                        };                                                      
+                                                                                
+                        ir0-tx-pin {                                            
+                                pins = "PB3";                                   
+                                phandle = <0x5c>;                               
+                                function = "ir0";                               
+                        };                                                      
+                                                                                
+                        led-pin {                                               
+                                pins = "PH2";                                   
+                                drive-strength = <0x14>;                        
+                                phandle = <0x35>;                               
+                                function = "gpio_out";                          
+                        };                                                      
+                };                                                              
+                                                                                
+                display-frontend@1e00000 {                                      
+                        compatible = "allwinner,sun4i-a10-display-frontend";    
+                        clocks = <0x02 0x40 0x02 0x92 0x02 0x8b>;               
+                        resets = <0x02 0x07>;                                   
+                        clock-names = "ahb\0mod\0ram";                          
+                        interrupts = <0x2f>;                                    
+                        phandle = <0x06>;                                       
+                        reg = <0x1e00000 0x20000>;                              
+                                                                                
+                        ports {                                                 
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x00>;                           
+                                                                                
+                                port@1 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x87>;                       
+                                        reg = <0x01>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x29>;       
+                                                phandle = <0x2c>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                                                                
+                                        endpoint@0 {                            
+                                                remote-endpoint = <0x28>;       
+                                                phandle = <0x30>;               
+                                                reg = <0x00>;                   
+                                        };                                      
+                                };                                              
+                        };                                                      
+                };                                                              
+                                                                                
+                usb@1c13000 {                                                   
+                        compatible = "allwinner,sun4i-a10-musb";                
+                        clocks = <0x02 0x1a>;                                   
+                        extcon = <0x19 0x00>;                                   
+                        phy-names = "usb";                                      
+                        status = "okay";                                        
+                        interrupts = <0x26>;                                    
+                        allwinner,sram = <0x1a 0x01>;                           
+                        phandle = <0x4a>;                                       
+                        phys = <0x19 0x00>;                                     
+                        reg = <0x1c13000 0x400>;                                
+                        dr_mode = "otg";                                        
+                        interrupt-names = "mc";                                 
+                };                                                              
+                                                                                
+                video-codec@1c0e000 {                                           
+                        compatible = "allwinner,sun4i-a10-video-engine";        
+                        clocks = <0x02 0x34 0x02 0xa1 0x02 0x82>;               
+                        resets = <0x02 0x10>;                                   
+                        clock-names = "ahb\0mod\0ram";                          
+                        interrupts = <0x35>;                                    
+                        allwinner,sram = <0x14 0x01>;                           
+                        reg = <0x1c0e000 0x1000>;                               
+                };                                                              
+                                                                                
+                ps2@1c2a400 {                                                   
+                        compatible = "allwinner,sun4i-a10-ps2";                 
+                        clocks = <0x02 0x56>;                                   
+                        status = "disabled";                                    
+                        interrupts = <0x3f>;                                    
+                        phandle = <0x7f>;                                       
+                        reg = <0x1c2a400 0x400>;                                
+                };                                                              
+                                                                                
+                mmc@1c12000 {                                                   
+                        compatible = "allwinner,sun4i-a10-mmc";                 
+                        clocks = <0x02 0x25 0x02 0x6b>;                         
+                        clock-names = "ahb\0mmc";                               
+                        status = "disabled";                                    
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x23>;                                    
+                        #size-cells = <0x00>;                                   
+                        phandle = <0x49>;                                       
+                        reg = <0x1c12000 0x1000>;                               
+                };                                                              
+                                                                                
+                i2c@1c2ac00 {                                                   
+                        compatible = "allwinner,sun4i-a10-i2c";                 
+                        clocks = <0x02 0x4f>;                                   
+                        status = "okay";                                        
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x07>;                                    
+                        #size-cells = <0x00>;                                   
+                        phandle = <0x80>;                                       
+                        reg = <0x1c2ac00 0x400>;                                
+                        pinctrl-0 = <0x25>;                                     
+                        pinctrl-names = "default";                              
+                                                                                
+                        pmic@34 {                                               
+                                compatible = "x-powers,axp209";                 
+                                #interrupt-cells = <0x01>;                      
+                                interrupts = <0x00>;                            
+                                phandle = <0x81>;                               
+                                reg = <0x34>;                                   
+                                interrupt-controller;                           
+                        };                                                      
+                };                                                              
+                                                                                
+                hdmi@1c16000 {                                                  
+                        compatible = "allwinner,sun4i-a10-hdmi";                
+                        clocks = <0x02 0x3c 0x02 0xa4 0x02 0x09 0x02 0x12>;     
+                        clock-names = "ahb\0mod\0pll-0\0pll-1";                 
+                        status = "okay";                                        
+                        interrupts = <0x3a>;                                    
+                        dma-names = "ddc-tx\0ddc-rx\0audio-tx";                 
+                        phandle = <0x4e>;                                       
+                        reg = <0x1c16000 0x1000>;                               
+                        dmas = <0x08 0x00 0x10 0x08 0x00 0x10 0x08 0x01 0x18>;  
+                                                                                
+                        ports {                                                 
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x00>;                           
+                                                                                
+                                port@1 {                                        
+                                        phandle = <0x50>;                       
+                                        reg = <0x01>;                           
+                                                                                
+                                        endpoint {                              
+                                                remote-endpoint = <0x20>;       
+                                                phandle = <0x34>;               
+                                        };                                      
+                                };                                              
+                                                                                
+                                port@0 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x4f>;                       
+                                        reg = <0x00>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x1f>;       
+                                                phandle = <0x13>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                                                                
+                                        endpoint@0 {                            
+                                                remote-endpoint = <0x1e>;       
+                                                phandle = <0x10>;               
+                                                reg = <0x00>;                   
+                                        };                                      
+                                };                                              
+                        };                                                      
+                };                                                              
+                                                                                
+                rtp@1c25000 {                                                   
+                        compatible = "allwinner,sun4i-a10-ts";                  
+                        #thermal-sensor-cells = <0x00>;                         
+                        interrupts = <0x1d>;                                    
+                        phandle = <0x03>;                                       
+                        reg = <0x1c25000 0x100>;                                
+                };                                                              
+                                                                                
+                serial@1c28c00 {                                                
+                        reg-io-width = <0x04>;                                  
+                        compatible = "snps,dw-apb-uart";                        
+                        clocks = <0x02 0x5b>;                                   
+                        status = "okay";                                        
+                        interrupts = <0x04>;                                    
+                        phandle = <0x79>;                                       
+                        reg = <0x1c28c00 0x400>;                                
+                        pinctrl-0 = <0x92>;                                     
+                        reg-shift = <0x02>;                                     
+                        pinctrl-names = "default";                              
+                };                                                              
+                                                                                
+                display-backend@1e60000 {                                       
+                        compatible = "allwinner,sun4i-a10-display-backend";     
+                        clocks = <0x02 0x3e 0x02 0x90 0x02 0x8c>;               
+                        resets = <0x02 0x05>;                                   
+                        clock-names = "ahb\0mod\0ram";                          
+                        interrupts = <0x2f>;                                    
+                        phandle = <0x8c>;                                       
+                        reg = <0x1e60000 0x10000>;                              
+                                                                                
+                        ports {                                                 
+                                #address-cells = <0x01>;                        
+                                #size-cells = <0x00>;                           
+                                                                                
+                                port@1 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x8e>;                       
+                                        reg = <0x01>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x33>;       
+                                                phandle = <0x11>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                                                                
+                                        endpoint@0 {                            
+                                                remote-endpoint = <0x32>;       
+                                                phandle = <0x0e>;               
+                                                reg = <0x00>;                   
+                                        };                                      
+                                };                                              
+                                                                                
+                                port@0 {                                        
+                                        #address-cells = <0x01>;                
+                                        #size-cells = <0x00>;                   
+                                        phandle = <0x8d>;                       
+                                        reg = <0x00>;                           
+                                                                                
+                                        endpoint@1 {                            
+                                                remote-endpoint = <0x31>;       
+                                                phandle = <0x2a>;               
+                                                reg = <0x01>;                   
+                                        };                                      
+                                                                                
+                                        endpoint@0 {                            
+                                                remote-endpoint = <0x30>;       
+                                                phandle = <0x28>;               
+                                                reg = <0x00>;                   
+                                        };                                      
+                                };                                              
+                        };                                                      
+                };                                                              
+                                                                                
+                spi@1c17000 {                                                   
+                        compatible = "allwinner,sun4i-a10-spi";                 
+                        clocks = <0x02 0x2e 0x02 0x72>;                         
+                        clock-names = "ahb\0mod";                               
+                        status = "disabled";                                    
+                        #address-cells = <0x01>;                                
+                        interrupts = <0x0c>;                                    
+                        #size-cells = <0x00>;                                   
+                        dma-names = "rx\0tx";                                   
+                        phandle = <0x51>;                                       
+                        reg = <0x1c17000 0x1000>;                               
+                        dmas = <0x08 0x01 0x1d 0x08 0x01 0x1c>;                 
+                };                                                              
+        };                                                                      
+                                                                                
+        leds {                                                                  
+                compatible = "gpio-leds";                                       
+                pinctrl-0 = <0x35>;                                             
+                pinctrl-names = "default";                                      
+                                                                                
+                green {                                                         
+                        gpios = <0x17 0x07 0x02 0x00>;                          
+                        label = "a10-olinuxino-lime:green:usr";                 
+                        default-state = "on";                                   
+                };                                                              
+        };                                                                      
+                                                                                
+        ahci-5v {                                                               
+                compatible = "regulator-fixed";                                 
+                regulator-boot-on;                                              
+                enable-active-high;                                             
+                gpio = <0x17 0x02 0x03 0x00>;                                   
+                status = "okay";                                                
+                phandle = <0x21>;                                               
+                regulator-min-microvolt = <0x4c4b40>;                           
+                regulator-max-microvolt = <0x4c4b40>;                           
+                regulator-name = "ahci-5v";                                     
+        };                                                                      
+                                                                                
+        aliases {                                                               
+                serial7 = "/soc@1c00000/serial@1c29c00";                        
+                serial5 = "/soc@1c00000/serial@1c29400";                        
+                ethernet0 = "/soc/ethernet@1c0b000";                            
+                serial3 = "/soc@1c00000/serial@1c28c00";                        
+                serial6 = "/soc@1c00000/serial@1c29800";                        
+                serial4 = "/soc@1c00000/serial@1c29000";                        
+                serial0 = "/soc/serial@1c28000";                                
+        };                                                                      
+                                                                                
+        chosen {                                                                
+                stdout-path = "serial0:115200n8";                               
+                bootargs = "root=PARTUUID=6668289b-01 rootwait console=ttyS0,11;
+                linux,initrd-start = <0x49738000>;                              
+                ranges;                                                         
+                #address-cells = <0x01>;                                        
+                #size-cells = <0x01>;                                           
+                linux,initrd-end = <0x49fffd9a>;                                
+                                                                                
+                framebuffer-fe0-lcd0-hdmi {                                     
+                        compatible = "allwinner,simple-framebuffer\0simple-fram;
+                        clocks = <0x02 0x38 0x02 0x3c 0x02 0x3e 0x02 0x40 0x02 ;
+                        allwinner,pipeline = "de_fe0-de_be0-lcd0-hdmi";         
+                        status = "disabled";                                    
+                };                                                              
+                                                                                
+                framebuffer-fe0-lcd0 {                                          
+                        compatible = "allwinner,simple-framebuffer\0simple-fram;
+                        clocks = <0x02 0x38 0x02 0x3e 0x02 0x40 0x02 0x90 0x02 ;
+                        allwinner,pipeline = "de_fe0-de_be0-lcd0";              
+                        status = "disabled";                                    
+                };                                                              
+                                                                                
+                framebuffer-fe0-lcd0-tve0 {                                     
+                        compatible = "allwinner,simple-framebuffer\0simple-fram;
+                        clocks = <0x02 0x36 0x02 0x38 0x02 0x3e 0x02 0x40 0x02 ;
+                        allwinner,pipeline = "de_fe0-de_be0-lcd0-tve0";         
+                        status = "disabled";                                    
+                };                                                              
+                                                                                
+                framebuffer-lcd0-hdmi {                                         
+                        compatible = "allwinner,simple-framebuffer\0simple-fram;
+                        clocks = <0x02 0x38 0x02 0x3c 0x02 0x3e 0x02 0x90 0x02 ;
+                        allwinner,pipeline = "de_be0-lcd0-hdmi";                
+                        status = "disabled";                                    
+                };                                                              
+        };                                                                      
+                                                                                
+        usb0-vbus {                                                             
+                compatible = "regulator-fixed";                                 
+                enable-active-high;                                             
+                gpio = <0x17 0x01 0x09 0x00>;                                   
+                status = "okay";                                                
+                phandle = <0x1b>;                                               
+                regulator-min-microvolt = <0x4c4b40>;                           
+                regulator-max-microvolt = <0x4c4b40>;                           
+                regulator-name = "usb0-vbus";                                   
+        };                                                                      
+                                                                                
+        thermal-zones {                                                         
+                                                                                
+                cpu-thermal {                                                   
+                        thermal-sensors = <0x03>;                               
+                        polling-delay = <0x3e8>;                                
+                        polling-delay-passive = <0xfa>;                         
+                                                                                
+                        trips {                                                 
+                                                                                
+                                cpu-alert0 {                                    
+                                        hysteresis = <0x7d0>;                   
+                                        temperature = <0x14c08>;                
+                                        type = "passive";                       
+                                        phandle = <0x04>;                       
+                                };                                              
+                                                                                
+                                cpu-crit {                                      
+                                        hysteresis = <0x7d0>;                   
+                                        temperature = <0x186a0>;                
+                                        type = "critical";                      
+                                        phandle = <0x36>;                       
+                                };                                              
+                        };                                                      
+                                                                                
+                        cooling-maps {                                          
+                                                                                
+                                map0 {                                          
+                                        trip = <0x04>;                          
+                                        cooling-device = <0x05 0xffffffff 0xfff;
+                                };                                              
+                        };                                                      
+                };                                                              
+        };                                                                      
+                                                                                
+        vcc3v0 {                                                                
+                compatible = "regulator-fixed";                                 
+                phandle = <0x8f>;                                               
+                regulator-min-microvolt = <0x2dc6c0>;                           
+                regulator-max-microvolt = <0x2dc6c0>;                           
+                regulator-name = "vcc3v0";                                      
+        };                                                                      
+                                                                                
+        hdmi-connector {                                                        
+                compatible = "hdmi-connector";                                  
+                type = [61 00];                                                 
+                                                                                
+                port {                                                          
+                                                                                
+                        endpoint {                                              
+                                remote-endpoint = <0x34>;                       
+                                phandle = <0x20>;                               
+                        };                                                      
+                };                                                              
+        };                                                                      
+                                                                                
+        memory {                                                                
+                device_type = "memory";                                         
+                reg = <0x40000000 0x20000000>;                                  
+        };                                                                      
+                                                                                
+        pmu {                                                                   
+                compatible = "arm,cortex-a8-pmu";                               
+                interrupts = <0x03>;                                            
+        };                                                                      
+                                                                                
+        cpus {                                                                  
+                #address-cells = <0x01>;                                        
+                #size-cells = <0x00>;                                           
+                                                                                
+                cpu@0 {                                                         
+                        compatible = "arm,cortex-a8";                           
+                        clocks = <0x02 0x14>;                                   
+                        device_type = "cpu";                                    
+                        phandle = <0x05>;                                       
+                        reg = <0x00>;                                           
+                        operating-points = <0xdea80 0x149970 0xd2f00 0x13d620 0;
+                        clock-latency = <0x3b9b0>;                              
+                        #cooling-cells = <0x02>;                                
+                };                                                              
+        };                                                                      
+                                                                                
+        vcc3v3 {                                                                
+                compatible = "regulator-fixed";                                 
+                phandle = <0x16>;                                               
+                regulator-min-microvolt = <0x325aa0>;                           
+                regulator-max-microvolt = <0x325aa0>;                           
+                regulator-name = "vcc3v3";                                      
+        };                                                                      
+                                                                                
+        vcc5v0 {                                                                
+                compatible = "regulator-fixed";                                 
+                phandle = <0x90>;                                               
+                regulator-min-microvolt = <0x4c4b40>;                           
+                regulator-max-microvolt = <0x4c4b40>;                           
+                regulator-name = "vcc5v0";                                      
+        };                                                                      
+};   
